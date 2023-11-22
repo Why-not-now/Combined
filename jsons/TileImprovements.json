@@ -1,0 +1,995 @@
+[
+	{
+		"name": "Seaside Stall",
+		"uniqueTo": "Phoenicia",
+		"gold": 1,
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"turnsToBuild": 8,
+		"techRequired": "Currency",
+		"uniques": [
+			"Can only be built on [Coastal] tiles",
+			"[+1 Food] for each adjacent [Fishing Boats]",
+			"[+1 Production] <after discovering [Navigation]>"
+		]
+	},
+	{
+		"name": "Colossal Head",
+		"uniqueTo": "The Olmec",
+		"terrainsCanBeBuiltOn": [
+			"Jungle",
+			"Forest"
+		],
+		"faith": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Calendar",
+		"uniques": [
+			"[+1 Culture] <after discovering [Archaeology]>",
+			"[+1 Science] for each adjacent [Great Improvement]",
+			"[+1 Science] for each adjacent [Great Improvement] <after discovering [Astronomy]>"
+		]
+	},
+	{
+		"name": "Desert Plantation",
+		"uniqueTo": "Himyar",
+		"terrainsCanBeBuiltOn": [
+			"Desert"
+		],
+		"gold": 2,
+		"turnsToBuild": 6,
+		"techRequired": "Mathematics",
+		"uniques": [
+			"Cannot be built on [Luxury resource] tiles",
+			"Provides [1] [Incense]",
+			"[+1 Gold] <after discovering [Economics]>",
+			"Cannot be built on [Flood plains] tiles"
+		]
+	},
+	{
+		"name": "Kurgan",
+		"uniqueTo": "Scythia",
+		"terrainsCanBeBuiltOn": [
+			"Plains"
+		],
+		"culture": 2,
+		"faith": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": [
+			"[+1 Culture] <after discovering [Archaeology]>"
+		]
+	},
+	{
+		"name": "Chateau",
+		"uniqueTo": "France",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"gold": 1,
+		"culture": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Chivalry",
+		"uniques": [
+			"Can only be built on [Land] tiles <with [1] to [6] neighboring [Luxury resource] tiles>",
+			"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Chateau] tiles>",
+			"Gives a defensive bonus of [50]%",
+			"[+2 Gold, +1 Culture] <after discovering [Flight]>"
+		]
+	},
+	{
+		"name": "Brazilwood Camp",
+		"uniqueTo": "Brazil",
+		"terrainsCanBeBuiltOn": [
+			"Jungle"
+		],
+		"gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Machinery",
+		"uniques": [
+			"[+2 Culture] <after discovering [Acoustics]>"
+		]
+	},
+	{
+		"name": "Feitoria",
+		"uniqueTo": "Portugal",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"turnsToBuild": 7,
+		"gold": 1,
+		"happiness": 1,
+		"techRequired": "Navigation",
+		"uniques": [
+			"Gives a defensive bonus of [50]%",
+			"Must be next to [City center]",
+			"Can only be built on [Coastal] tiles"
+		]
+	},
+	{
+		"name": "Kasbah",
+		"uniqueTo": "Morocco",
+		"terrainsCanBeBuiltOn": [
+			"Desert",
+			"Flood plains"
+		],
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Chivalry",
+		"uniques": [
+			"Gives a defensive bonus of [50]%"
+		]
+	},
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Flood plains"
+		],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": [
+			"Forest"
+		],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": [
+			"[+1 Production] <after discovering [Scientific Theory]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": [
+			"Hill"
+		],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": [
+			"[+1 Production] <after discovering [Chemistry]>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Forest",
+			"Jungle",
+			"Flood plains"
+		],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": [
+			"[+1 Gold] <after discovering [Economics]>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Camp",
+		"turnsToBuild": 7,
+		"techRequired": "Trapping",
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Gold] <after discovering [Economics]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"techRequired": "Biology",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Cannot be built on [Water] tiles",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Offshore Platform",
+		"techRequired": "Refrigeration",
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Can only be built on [Water] tiles",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 8,
+		"techRequired": "Animal Husbandry",
+		"uniques": [
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Calendar",
+		"uniques": [
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": [
+			"[+1 Production] <after discovering [Chemistry]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "Q"
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": [
+			"Coast"
+		],
+		"food": 1,
+		"techRequired": "Sailing",
+		"uniques": [
+			"[+1 Gold] <after discovering [Compass]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Snow",
+			"Forest",
+			"Jungle"
+		],
+		"turnsToBuild": 6,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Can be built outside your borders",
+			"Gives a defensive bonus of [50]%"
+		],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"turnsToBuild": 4,
+		"techRequired": "The Wheel",
+		"uniques": [
+			"Can be built outside your borders",
+			"Costs [1] [Gold] per turn"
+		],
+		"shortcutKey": "R",
+		"civilopediaText": [
+			{
+				"text": "Reduces movement cost to ½ if the other tile also has a Road or Railroad"
+			},
+			{
+				"text": "Reduces movement cost to ⅓ with Machinery",
+				"link": "Technology/Machinery"
+			},
+			{
+				"text": "Requires Engineering to bridge rivers",
+				"link": "Technology/Engineering"
+			}
+		]
+	},
+	{
+		"name": "Railroad",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"turnsToBuild": 4,
+		"techRequired": "Railroads",
+		"uniques": [
+			"Can be built outside your borders",
+			"Costs [2] [Gold] per turn"
+		],
+		"shortcutKey": "R",
+		"civilopediaText": [
+			{
+				"text": "Reduces movement cost to ⅒ if the other tile also has a Railroad"
+			}
+		]
+	},
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"techRequired": "Mining",
+		"uniques": [
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "X",
+		"civilopediaText": [
+			{
+				"text": "Provides a one-time Production bonus depending on distance to the closest city once finished"
+			}
+		]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"techRequired": "Bronze Working",
+		"uniques": [
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 2,
+		"uniques": [
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 6,
+		"techRequired": "Masonry",
+		"uniques": [
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": [
+			"Can be built outside your borders"
+		]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": [
+			"Can be built outside your borders"
+		]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": [
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "."
+	},
+	{
+		"name": "Repair",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"turnsToBuild": 2,
+		"shortcutKey": "E",
+		"uniques": [
+			"Unbuildable"
+		],
+		"civilopediaText": [
+			{
+				"text": "Repairs a pillaged Improvement or Route"
+			}
+		]
+	},
+	{
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"science": 8,
+		"uniques": [
+			"Great Improvement",
+			"[+2 Science] <after discovering [Scientific Theory]>",
+			"[+2 Science] <after discovering [Atomic Theory]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"culture": 6,
+		"uniques": [
+			"Great Improvement",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"production": 4,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Production] <after discovering [Chemistry]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Customs house",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"gold": 4,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Gold] <after discovering [Economics]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Holy site",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"faith": 6,
+		"uniques": [
+			"Great Improvement",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+			"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built"
+		]
+	},
+	{
+		"name": "Moai",
+		"uniqueTo": "Polynesia",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"culture": 1,
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can only be built on [Coastal] tiles",
+			"[+1 Culture] for each adjacent [Moai]",
+			"[+1 Gold] <after discovering [Flight]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"techRequired": "Construction",
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Terrace farm",
+		"uniqueTo": "Inca",
+		"terrainsCanBeBuiltOn": [
+			"Hill"
+		],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+			"Cannot be built on [Bonus resource] tiles",
+			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"techRequired": "Construction",
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Polder",
+		"uniqueTo": "The Netherlands",
+		"food": 3,
+		"terrainsCanBeBuiltOn": [
+			"Marsh",
+			"Flood plains"
+		],
+		"turnsToBuild": 7,
+		"uniques": [
+			"[+1 Production, +2 Gold] <after discovering [Economics]>",
+			"Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"techRequired": "Guilds",
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"uniques": [
+			"Unpillagable",
+			"Provides a random bonus when entered",
+			"Unbuildable"
+		]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"uniques": [
+			"Unpillagable",
+			"Unbuildable",
+			"Will be replaced by automated workers"
+		],
+		"civilopediaText": [
+			{
+				"text": "A bleak reminder of the destruction wreaked by War"
+			}
+		]
+	},
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"uniques": [
+			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
+			"Unpillagable",
+			"Irremovable",
+			"Unbuildable"
+		],
+		"civilopediaText": [
+			{
+				"text": "Marks the center of a city"
+			},
+			{
+				"text": "Appearance changes with the technological era of the owning civilization"
+			}
+		]
+	},
+	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"uniques": [
+			"Unpillagable",
+			"Unbuildable"
+		],
+		"civilopediaText": [
+			{
+				"text": "Home to uncivilized barbarians, will spawn a hostile unit from time to time"
+			}
+		]
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 8,
+		"techRequired": "Animal Husbandry",
+		"uniques": [
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Does not need removal of [Marsh]"
+		],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Coffee Hacienda",
+		"uniqueTo": "Colombia",
+		"terrainsCanBeBuiltOn": [
+			"Hill"
+		],
+		"uniques": [
+			"Provides [1] [Coffee]",
+			"Cannot be built on [Tundra] tiles",
+			"Cannot be built on [Snow] tiles",
+			"Cannot be built on [Desert] tiles",
+			"Does not need removal of [Jungle]",
+			"Great Improvement",
+			"Will not be displayed in Civilopedia",
+			"Pillaging this improvement yields approximately [+57 Gold]"
+		]
+	},
+	{
+		"name": "Vigilance Post",
+		"uniqueTo": "El Salvador",
+		"techRequired": "Economics",
+		"replaces": "Fort",
+		"gold": 2,
+		"production": 1,
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Hill",
+			"Forest",
+			"Jungle"
+		],
+		"turnsToBuild": 9,
+		"uniques": [
+			"Gives a defensive bonus of [25]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Costs [1] [Gold] per turn when in your territory"
+		]
+	},
+	{
+		"name": "Darien Gap",
+		"uniqueTo": "Panama",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"turnsToBuild": 7,
+		"production": -2,
+		"techRequired": "Agriculture",
+		"uniques": [
+			"[+1 Food, +1 Culture] <after discovering [Pottery]>",
+			"[+1 Science, +1 Culture] <after discovering [Scientific Theory]>",
+			"Units ending their turn on this tile take 50 damage when healing",
+			"All units must spend 3 extra movement points when inside the Darien Gap",
+			"Unpillagable",
+			"Can be built just outside your borders",
+			"Great Improvement",
+			"Cannot be built on [Desert] tiles",
+			"Cannot be built on [Tundra] tiles",
+			"Does not need removal of [Jungle]",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Marsh]"
+		],
+		"civilopediaText": [
+			{
+				"text": "The Gap of Darien, located in our world where it forms the border of Colombia and Panama, has shaped the history of the isthmus so greatly, even before civilization. An indomitable strip of hills, jungles and mountains, full of dangerous animals and illnesses, the Gap is the great wall that separates Panama from the rest of the continent."
+			}
+		]
+	},
+	{
+		"name": "Panama Canal",
+		"uniqueTo": "Panama",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Forest",
+			"Jungle"
+		],
+		"uniques": [
+			"[+1 Gold] for each adjacent [Coast]",
+			"Cannot be built on [Tundra] tiles",
+			"Cannot be built on [Snow] tiles",
+			"Removes removable features when built",
+			"Costs [1] [Gold] per turn when in your territory",
+			"Great Improvement",
+			"Will not be displayed in Civilopedia",
+			"Unpillagable",
+			"Irremovable"
+		]
+	},
+	{
+		"name": "Sacred altar",
+		"uniqueTo": "Lithuania",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"faith": 1,
+		"uniques": [
+			"Tile provides yield without assigned population"
+		]
+	},
+	{
+		"name": "Llats edisaes",
+		"uniqueTo": "Upside-Down",
+		"gold": 1,
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"turnsToBuild": 8,
+		"techRequired": "Currency",
+		"uniques": [
+			"Can only be built on [Coastal] tiles",
+			"[+1 Food] for each adjacent [Fishing Boats]",
+			"[+1 Production] <after discovering [Navigation]>"
+		]
+	},
+	{
+		"name": "Daeh lassoloc",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Jungle",
+			"Forest"
+		],
+		"faith": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Calendar",
+		"uniques": [
+			"[+1 Culture] <after discovering [Archaeology]>",
+			"[+1 Science] for each adjacent [Great Improvement]",
+			"[+1 Science] for each adjacent [Great Improvement] <after discovering [Astronomy]>"
+		]
+	},
+	{
+		"name": "Noitatnalp tresed",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Desert"
+		],
+		"gold": 2,
+		"turnsToBuild": 6,
+		"techRequired": "Mathematics",
+		"uniques": [
+			"Cannot be built on [Luxury resource] tiles",
+			"Provides [1] [Incense]",
+			"[+1 Gold] <after discovering [Economics]>",
+			"Cannot be built on [Flood plains] tiles"
+		]
+	},
+	{
+		"name": "Nagruk",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Plains"
+		],
+		"culture": 2,
+		"faith": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": [
+			"[+1 Culture] <after discovering [Archaeology]>"
+		]
+	},
+	{
+		"name": "Uaetahc",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"gold": 1,
+		"culture": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Chivalry",
+		"uniques": [
+			"Can only be built on [Land] tiles <with [1] to [6] neighboring [Luxury resource] tiles>",
+			"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Chateau] tiles>",
+			"Gives a defensive bonus of [50]%",
+			"[+2 Gold, +1 Culture] <after discovering [Flight]>"
+		]
+	},
+	{
+		"name": "Pmac doowlizarb",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Jungle"
+		],
+		"gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Machinery",
+		"uniques": [
+			"[+2 Culture] <after discovering [Acoustics]>"
+		]
+	},
+	{
+		"name": "Airotief",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"turnsToBuild": 7,
+		"gold": 1,
+		"happiness": 1,
+		"techRequired": "Navigation",
+		"uniques": [
+			"Gives a defensive bonus of [50]%",
+			"Must be next to [City center]",
+			"Can only be built on [Coastal] tiles"
+		]
+	},
+	{
+		"name": "Habsak",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Desert",
+			"Flood plains"
+		],
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Chivalry",
+		"uniques": [
+			"Gives a defensive bonus of [50]%"
+		]
+	},
+	{
+		"name": "Iaom",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"culture": 1,
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can only be built on [Coastal] tiles",
+			"[+1 Culture] for each adjacent [Moai]",
+			"[+1 Gold] <after discovering [Flight]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"techRequired": "Construction",
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Mraf ecarret",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Hill"
+		],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": [
+			"Cannot be built on [Bonus resource] tiles",
+			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"techRequired": "Construction",
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Redlop",
+		"uniqueTo": "Upside-Down",
+		"food": 3,
+		"terrainsCanBeBuiltOn": [
+			"Marsh",
+			"Flood plains"
+		],
+		"turnsToBuild": 7,
+		"uniques": [
+			"[+1 Production, +2 Gold] <after discovering [Economics]>",
+			"Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"techRequired": "Guilds",
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Adneicah eeffoc",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Hill"
+		],
+		"uniques": [
+			"Provides [1] [Coffee]",
+			"Cannot be built on [Tundra] tiles",
+			"Cannot be built on [Snow] tiles",
+			"Cannot be built on [Desert] tiles",
+			"Does not need removal of [Jungle]",
+			"Great Improvement",
+			"Will not be displayed in Civilopedia",
+			"Pillaging this improvement yields approximately [+57 Gold]"
+		]
+	},
+	{
+		"name": "Tsop ecnaligiv",
+		"uniqueTo": "Upside-Down",
+		"techRequired": "Economics",
+		"replaces": "Fort",
+		"gold": 2,
+		"production": 1,
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Hill",
+			"Forest",
+			"Jungle"
+		],
+		"turnsToBuild": 9,
+		"uniques": [
+			"Gives a defensive bonus of [25]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Costs [1] [Gold] per turn when in your territory"
+		]
+	},
+	{
+		"name": "Pag neirad",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"turnsToBuild": 7,
+		"production": -2,
+		"techRequired": "Agriculture",
+		"uniques": [
+			"[+1 Food, +1 Culture] <after discovering [Pottery]>",
+			"[+1 Science, +1 Culture] <after discovering [Scientific Theory]>",
+			"Units ending their turn on this tile take 50 damage when healing",
+			"All units must spend 3 extra movement points when inside the Darien Gap",
+			"Unpillagable",
+			"Can be built just outside your borders",
+			"Great Improvement",
+			"Cannot be built on [Desert] tiles",
+			"Cannot be built on [Tundra] tiles",
+			"Does not need removal of [Jungle]",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Marsh]"
+		],
+		"civilopediaText": [
+			{
+				"text": "The Gap of Darien, located in our world where it forms the border of Colombia and Panama, has shaped the history of the isthmus so greatly, even before civilization. An indomitable strip of hills, jungles and mountains, full of dangerous animals and illnesses, the Gap is the great wall that separates Panama from the rest of the continent."
+			}
+		]
+	},
+	{
+		"name": "Lanac amanap",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Forest",
+			"Jungle"
+		],
+		"uniques": [
+			"[+1 Gold] for each adjacent [Coast]",
+			"Cannot be built on [Tundra] tiles",
+			"Cannot be built on [Snow] tiles",
+			"Removes removable features when built",
+			"Costs [1] [Gold] per turn when in your territory",
+			"Great Improvement",
+			"Will not be displayed in Civilopedia",
+			"Unpillagable",
+			"Irremovable"
+		]
+	},
+	{
+		"name": "Ratla dercas",
+		"uniqueTo": "Upside-Down",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"faith": 1,
+		"uniques": [
+			"Tile provides yield without assigned population"
+		]
+	}
+]
