@@ -3392,29 +3392,28 @@
 		"upgrade": "Galleass"
 	},
 	{
-		"name": "Rehcra Toirahc",
-		"unitType": "Archery",
+		"name": "Rehcra Toirahc (Sword)",
+		"unitType": "Sword",
 		"uniqueTo": "Upside-Down",
-		"replaces": "Chariot Archer",
 		"movement": 5,
 		"strength": 13,
 		"cost": 70,
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Chivalry",
 		"promotions": [
-			"Accuracy I",
 			"Mobility",
+			"Accuracy I",
 			"Shock I"
 		],
 		"uniques": [
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[+25]% Strength <vs [Sword] units>",
-			"May withdraw before melee ([50]%)",
 			"[-33]% Strength <vs cities>",
+			"Can move after attacking",
+			"May withdraw before melee ([50]%)",
+			"[+25]% Strength <vs [Sword] units>",
 			"Can transform to [Rehcra Toirahc (Crossbowman)] <in [Friendly Land] tiles>",
-			"Can transform to [Rehcra Toirahc (Sword)] <in [Friendly Land] tiles>"
+			"Can transform to [Rehcra Toirahc] <in [Friendly Land] tiles>"
 		],
 		"attackSound": "arrow",
 		"rangedStrength": 11,
@@ -3431,19 +3430,19 @@
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Chivalry",
 		"promotions": [
-			"Accuracy I",
 			"Mobility",
+			"Accuracy I",
 			"Shock I"
 		],
 		"uniques": [
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[+25]% Strength <vs [Sword] units>",
-			"May withdraw before melee ([50]%)",
 			"[-33]% Strength <vs cities>",
-			"Can transform to [Rehcra Toirahc] <in [Friendly Land] tiles>",
-			"Can transform to [Rehcra Toirahc (Sword)] <in [Friendly Land] tiles>"
+			"Can move after attacking",
+			"May withdraw before melee ([50]%)",
+			"[+25]% Strength <vs [Sword] units>",
+			"Can transform to [Rehcra Toirahc (Sword)] <in [Friendly Land] tiles>",
+			"Can transform to [Rehcra Toirahc] <in [Friendly Land] tiles>"
 		],
 		"attackSound": "arrow",
 		"rangedStrength": 11,
@@ -3451,33 +3450,70 @@
 		"upgrade": "Crossbowman"
 	},
 	{
-		"name": "Rehcra Toirahc (Sword)",
-		"unitType": "Sword",
+		"name": "Rehcra Toirahc",
+		"unitType": "Archery",
 		"uniqueTo": "Upside-Down",
+		"replaces": "Chariot Archer",
 		"movement": 5,
 		"strength": 13,
 		"cost": 70,
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Chivalry",
 		"promotions": [
-			"Accuracy I",
 			"Mobility",
+			"Accuracy I",
 			"Shock I"
 		],
 		"uniques": [
 			"[-25]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[+25]% Strength <vs [Sword] units>",
-			"May withdraw before melee ([50]%)",
 			"[-33]% Strength <vs cities>",
-			"Can transform to [Rehcra Toirahc] <in [Friendly Land] tiles>",
+			"Can move after attacking",
+			"May withdraw before melee ([50]%)",
+			"[+25]% Strength <vs [Sword] units>",
+			"Can transform to [Rehcra Toirahc (Sword)] <in [Friendly Land] tiles>",
 			"Can transform to [Rehcra Toirahc (Crossbowman)] <in [Friendly Land] tiles>"
 		],
 		"attackSound": "arrow",
 		"rangedStrength": 11,
 		"range": 1,
 		"upgrade": "Knight"
+	},
+	{
+		"name": "Namraeps (Trebuchet)",
+		"unitType": "Sword",
+		"uniqueTo": "Upside-Down",
+		"movement": 2,
+		"strength": 13,
+		"cost": 75,
+		"requiredTech": "Mining",
+		"obsoleteTech": "Physics",
+		"uniques": [
+			"[+50]% Strength <vs [Sword] units>",
+			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
+			"[+25]% Strength <when defending>",
+			"Heals [25] damage if it kills a unit",
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+50]% Strength <vs [Mounted] units>",
+			"No defensive terrain bonus",
+			"Can only attack [City] units",
+			"[-33]% Strength <when defending>",
+			"[+100]% Strength <vs [Mounted] units>",
+			"[+15]% Strength bonus for [Sword] units within [1] tiles",
+			"[-1] Sight",
+			"[+300]% Strength <vs cities> <when attacking>",
+			"Can transform to [Namraeps] <in [Friendly Land] tiles>",
+			"Can transform to [Namraeps (Archery, Crossbowman)] <in [Friendly Land] tiles>"
+		],
+		"attackSound": "metalhit",
+		"promotions": [
+			"Pictish Courage",
+			"Cover I",
+			"[Persian Immortal] ability"
+		],
+		"rangedStrength": 9,
+		"range": 1,
+		"upgrade": "Trebuchet"
 	},
 	{
 		"name": "Namraeps",
@@ -3490,21 +3526,21 @@
 		"requiredTech": "Mining",
 		"obsoleteTech": "Physics",
 		"uniques": [
-			"[+300]% Strength <vs cities> <when attacking>",
-			"[+25]% Strength <when defending>",
-			"[+100]% Strength <vs [Mounted] units>",
 			"[+50]% Strength <vs [Sword] units>",
-			"[+50]% Strength <vs [Mounted] units>",
 			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
+			"[+25]% Strength <when defending>",
 			"Heals [25] damage if it kills a unit",
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+50]% Strength <vs [Mounted] units>",
 			"No defensive terrain bonus",
-			"[+15]% Strength bonus for [Sword] units within [1] tiles",
 			"Can only attack [City] units",
 			"[-33]% Strength <when defending>",
+			"[+100]% Strength <vs [Mounted] units>",
+			"[+15]% Strength bonus for [Sword] units within [1] tiles",
 			"[-1] Sight",
-			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Can transform to [Namraeps (Archery, Crossbowman)] <in [Friendly Land] tiles>",
-			"Can transform to [Namraeps (Trebuchet)] <in [Friendly Land] tiles>"
+			"[+300]% Strength <vs cities> <when attacking>",
+			"Can transform to [Namraeps (Trebuchet)] <in [Friendly Land] tiles>",
+			"Can transform to [Namraeps (Archery, Crossbowman)] <in [Friendly Land] tiles>"
 		],
 		"attackSound": "metalhit",
 		"promotions": [
@@ -3526,21 +3562,21 @@
 		"requiredTech": "Mining",
 		"obsoleteTech": "Physics",
 		"uniques": [
-			"[+300]% Strength <vs cities> <when attacking>",
-			"[+25]% Strength <when defending>",
-			"[+100]% Strength <vs [Mounted] units>",
 			"[+50]% Strength <vs [Sword] units>",
-			"[+50]% Strength <vs [Mounted] units>",
 			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
+			"[+25]% Strength <when defending>",
 			"Heals [25] damage if it kills a unit",
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+50]% Strength <vs [Mounted] units>",
 			"No defensive terrain bonus",
-			"[+15]% Strength bonus for [Sword] units within [1] tiles",
 			"Can only attack [City] units",
 			"[-33]% Strength <when defending>",
+			"[+100]% Strength <vs [Mounted] units>",
+			"[+15]% Strength bonus for [Sword] units within [1] tiles",
 			"[-1] Sight",
-			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Can transform to [Namraeps] <in [Friendly Land] tiles>",
-			"Can transform to [Namraeps (Trebuchet)] <in [Friendly Land] tiles>"
+			"[+300]% Strength <vs cities> <when attacking>",
+			"Can transform to [Namraeps (Trebuchet)] <in [Friendly Land] tiles>",
+			"Can transform to [Namraeps] <in [Friendly Land] tiles>"
 		],
 		"attackSound": "metalhit",
 		"promotions": [
@@ -3553,42 +3589,6 @@
 		"upgrade": "Crossbowman"
 	},
 	{
-		"name": "Namraeps (Trebuchet)",
-		"unitType": "Sword",
-		"uniqueTo": "Upside-Down",
-		"movement": 2,
-		"strength": 13,
-		"cost": 75,
-		"requiredTech": "Mining",
-		"obsoleteTech": "Physics",
-		"uniques": [
-			"[+300]% Strength <vs cities> <when attacking>",
-			"[+25]% Strength <when defending>",
-			"[+100]% Strength <vs [Mounted] units>",
-			"[+50]% Strength <vs [Sword] units>",
-			"[+50]% Strength <vs [Mounted] units>",
-			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",
-			"Heals [25] damage if it kills a unit",
-			"No defensive terrain bonus",
-			"[+15]% Strength bonus for [Sword] units within [1] tiles",
-			"Can only attack [City] units",
-			"[-33]% Strength <when defending>",
-			"[-1] Sight",
-			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Can transform to [Namraeps] <in [Friendly Land] tiles>",
-			"Can transform to [Namraeps (Archery, Crossbowman)] <in [Friendly Land] tiles>"
-		],
-		"attackSound": "metalhit",
-		"promotions": [
-			"Pictish Courage",
-			"Cover I",
-			"[Persian Immortal] ability"
-		],
-		"rangedStrength": 9,
-		"range": 1,
-		"upgrade": "Trebuchet"
-	},
-	{
 		"name": "Roirraw",
 		"unitType": "Sword",
 		"uniqueTo": "Upside-Down",
@@ -3598,16 +3598,16 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"uniques": [
-			"Earn [25]% of killed [Military] unit's [Strength] as [Faith]",
 			"Ignores terrain cost",
 			"May upgrade to [Spearman] through ruins-like effects",
-			"Invisible to non-adjacent units"
+			"Invisible to non-adjacent units",
+			"Earn [25]% of killed [Military] unit's [Strength] as [Faith]"
 		],
 		"attackSound": "nonmetalhit",
 		"promotions": [
-			"[Jaguar] ability",
 			"Woodsman",
-			"Haka War Dance"
+			"Haka War Dance",
+			"[Jaguar] ability"
 		],
 		"upgrade": "Swordsman"
 	},
@@ -3622,18 +3622,38 @@
 		"requiredTech": "Trapping",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
-			"[-25]% Strength <vs cities> <when attacking>",
-			"No defensive terrain bonus",
 			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[-25]% Strength <vs cities> <when attacking>",
 			"[-33]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
 			"Can move after attacking"
 		],
 		"attackSound": "horse",
 		"promotions": [
-			"Great Generals I",
-			"Great Generals II"
+			"Great Generals II",
+			"Great Generals I"
 		],
 		"upgrade": "Knight"
+	},
+	{
+		"name": "Tuocs (Composite Bowman)",
+		"unitType": "Scout",
+		"uniqueTo": "Upside-Down",
+		"movement": 3,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"May capture killed [Military] units",
+			"[1] additional attacks per turn",
+			"May upgrade to [Composite Bowman] through ruins-like effects",
+			"Can transform to [Tuocs] <in [Friendly Land] tiles>"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit",
+		"upgrade": "Composite Bowman"
 	},
 	{
 		"name": "Tuocs",
@@ -3645,35 +3665,15 @@
 		"cost": 40,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": [
-			"May upgrade to [Composite Bowman] through ruins-like effects",
 			"May capture killed [Military] units",
 			"[1] additional attacks per turn",
+			"May upgrade to [Composite Bowman] through ruins-like effects",
 			"Can transform to [Tuocs (Composite Bowman)] <in [Friendly Land] tiles>"
 		],
 		"promotions": [
 			"Ignore terrain cost"
 		],
 		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Tuocs (Composite Bowman)",
-		"unitType": "Scout",
-		"uniqueTo": "Upside-Down",
-		"movement": 3,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Scientific Theory",
-		"uniques": [
-			"May upgrade to [Composite Bowman] through ruins-like effects",
-			"May capture killed [Military] units",
-			"[1] additional attacks per turn",
-			"Can transform to [Tuocs] <in [Friendly Land] tiles>"
-		],
-		"promotions": [
-			"Ignore terrain cost"
-		],
-		"attackSound": "nonmetalhit",
-		"upgrade": "Composite Bowman"
 	},
 	{
 		"name": "Rehcra (Crossbowman)",
@@ -3686,9 +3686,9 @@
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Machinery",
 		"promotions": [
-			"Steppe Hunter",
+			"Slinger Withdraw",
 			"Accuracy I",
-			"Slinger Withdraw"
+			"Steppe Hunter"
 		],
 		"attackSound": "arrow",
 		"upgrade": "Crossbowman",
@@ -3708,15 +3708,41 @@
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Machinery",
 		"promotions": [
-			"Steppe Hunter",
+			"Slinger Withdraw",
 			"Accuracy I",
-			"Slinger Withdraw"
+			"Steppe Hunter"
 		],
 		"attackSound": "arrow",
 		"upgrade": "Composite Bowman",
 		"uniques": [
 			"Can transform to [Rehcra (Crossbowman)] <in [Friendly Land] tiles>"
 		]
+	},
+	{
+		"name": "Tlupatac (Sword)",
+		"unitType": "Sword",
+		"uniqueTo": "Upside-Down",
+		"movement": 2,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"uniques": [
+			"[50]% Strength bonus for [Sword] units within [1] tiles <vs cities>",
+			"[+1] Sight",
+			"No defensive terrain bonus",
+			"Can only attack [City] units",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"[-1] Sight",
+			"Must set up to ranged attack",
+			"Can transform to [Tlupatac] <in [Friendly Land] tiles>"
+		],
+		"promotions": [
+			"Cover I"
+		],
+		"attackSound": "throw",
+		"rangedStrength": 10,
+		"upgrade": "Trebuchet"
 	},
 	{
 		"name": "Tlupatac",
@@ -3729,40 +3755,14 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"uniques": [
-			"[+200]% Strength <vs cities> <when attacking>",
+			"[50]% Strength bonus for [Sword] units within [1] tiles <vs cities>",
 			"[+1] Sight",
 			"No defensive terrain bonus",
-			"Must set up to ranged attack",
 			"Can only attack [City] units",
+			"[+200]% Strength <vs cities> <when attacking>",
 			"[-1] Sight",
-			"[50]% Strength bonus for [Sword] units within [1] tiles <vs cities>",
+			"Must set up to ranged attack",
 			"Can transform to [Tlupatac (Sword)] <in [Friendly Land] tiles>"
-		],
-		"promotions": [
-			"Cover I"
-		],
-		"attackSound": "throw",
-		"rangedStrength": 10,
-		"upgrade": "Trebuchet"
-	},
-	{
-		"name": "Tlupatac (Sword)",
-		"unitType": "Sword",
-		"uniqueTo": "Upside-Down",
-		"movement": 2,
-		"strength": 12,
-		"cost": 75,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
-		"uniques": [
-			"[+200]% Strength <vs cities> <when attacking>",
-			"[+1] Sight",
-			"No defensive terrain bonus",
-			"Must set up to ranged attack",
-			"Can only attack [City] units",
-			"[-1] Sight",
-			"[50]% Strength bonus for [Sword] units within [1] tiles <vs cities>",
-			"Can transform to [Tlupatac] <in [Friendly Land] tiles>"
 		],
 		"promotions": [
 			"Cover I"
@@ -3782,16 +3782,16 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Gunpowder",
 		"uniques": [
-			"Can build [Fort] improvements on tiles",
-			"[1] Movement point cost to disembark",
+			"Can build [Road] improvements on tiles",
 			"Can move after attacking",
-			"Can build [Road] improvements on tiles"
+			"[1] Movement point cost to disembark",
+			"Can build [Fort] improvements on tiles"
 		],
 		"promotions": [
 			"Cover I",
-			"Blitz",
 			"[Housecarl] ability",
 			"[Mohawk Warrior] ability",
+			"Blitz",
 			"Mystic Blade"
 		],
 		"attackSound": "metalhit",
@@ -3816,32 +3816,6 @@
 		"upgrade": "Frigate"
 	},
 	{
-		"name": "Namekip",
-		"replaces": "Pikeman",
-		"uniqueTo": "Upside-Down",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 17,
-		"cost": 90,
-		"requiredTech": "Civil Service",
-		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>",
-			"[1] additional attacks per turn",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-			"Can move immediately once bought",
-			"[+25]% Strength <vs [Gunpowder] units>",
-			"Double movement in [Coast]",
-			"Can transform to [Namekip (Rifleman)] <in [Friendly Land] tiles>",
-			"Can transform to [Namekip (Musketman)] <in [Friendly Land] tiles>"
-		],
-		"obsoleteTech": "Rifling",
-		"attackSound": "metalhit",
-		"promotions": [
-			"Amphibious"
-		],
-		"upgrade": "Lancer"
-	},
-	{
 		"name": "Namekip (Rifleman)",
 		"uniqueTo": "Upside-Down",
 		"unitType": "Sword",
@@ -3850,14 +3824,14 @@
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>",
-			"[1] additional attacks per turn",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-			"Can move immediately once bought",
-			"[+25]% Strength <vs [Gunpowder] units>",
 			"Double movement in [Coast]",
-			"Can transform to [Namekip] <in [Friendly Land] tiles>",
-			"Can transform to [Namekip (Musketman)] <in [Friendly Land] tiles>"
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+25]% Strength <vs [Gunpowder] units>",
+			"Can move immediately once bought",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+			"[1] additional attacks per turn",
+			"Can transform to [Namekip (Musketman)] <in [Friendly Land] tiles>",
+			"Can transform to [Namekip] <in [Friendly Land] tiles>"
 		],
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit",
@@ -3875,14 +3849,14 @@
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+50]% Strength <vs [Mounted] units>",
-			"[1] additional attacks per turn",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
-			"Can move immediately once bought",
-			"[+25]% Strength <vs [Gunpowder] units>",
 			"Double movement in [Coast]",
-			"Can transform to [Namekip] <in [Friendly Land] tiles>",
-			"Can transform to [Namekip (Rifleman)] <in [Friendly Land] tiles>"
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+25]% Strength <vs [Gunpowder] units>",
+			"Can move immediately once bought",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+			"[1] additional attacks per turn",
+			"Can transform to [Namekip (Rifleman)] <in [Friendly Land] tiles>",
+			"Can transform to [Namekip] <in [Friendly Land] tiles>"
 		],
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit",
@@ -3890,6 +3864,32 @@
 			"Amphibious"
 		],
 		"upgrade": "Musketman"
+	},
+	{
+		"name": "Namekip",
+		"replaces": "Pikeman",
+		"uniqueTo": "Upside-Down",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Double movement in [Coast]",
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+25]% Strength <vs [Gunpowder] units>",
+			"Can move immediately once bought",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+			"[1] additional attacks per turn",
+			"Can transform to [Namekip (Rifleman)] <in [Friendly Land] tiles>",
+			"Can transform to [Namekip (Musketman)] <in [Friendly Land] tiles>"
+		],
+		"obsoleteTech": "Rifling",
+		"attackSound": "metalhit",
+		"promotions": [
+			"Amphibious"
+		],
+		"upgrade": "Lancer"
 	},
 	{
 		"name": "Namsdrowsgnol (Rifleman)",
@@ -3901,10 +3901,10 @@
 		"requiredTech": "Metal Casting",
 		"obsoleteTech": "Rifling",
 		"promotions": [
+			"Great Generals II",
 			"[Campesino Patriota] ability",
 			"Shock I",
-			"Amphibious",
-			"Great Generals II"
+			"Amphibious"
 		],
 		"attackSound": "metalhit",
 		"uniques": [
@@ -3928,10 +3928,10 @@
 		"requiredTech": "Metal Casting",
 		"obsoleteTech": "Rifling",
 		"promotions": [
+			"Great Generals II",
 			"[Campesino Patriota] ability",
 			"Shock I",
-			"Amphibious",
-			"Great Generals II"
+			"Amphibious"
 		],
 		"attackSound": "metalhit",
 		"uniques": [
@@ -3955,27 +3955,27 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
-			"[+100]% Strength <after discovering [Mobile Tactics]>",
-			"[+1] Sight",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
-			"[+60]% Strength <after discovering [Plastics]>",
-			"[+30]% Strength <after discovering [Replaceable Parts]>",
 			"[+10]% Strength <after discovering [Rifling]>",
+			"[+1] Sight",
 			"[-33]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
 			"Unit will heal every turn, even if it performs an action",
 			"[-33]% Strength <vs cities>",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+30]% Strength <after discovering [Replaceable Parts]>",
 			"[+1] Movement <after discovering [Mobile Tactics]>",
+			"Can move after attacking",
+			"[+100]% Strength <after discovering [Mobile Tactics]>",
+			"[+60]% Strength <after discovering [Plastics]>",
 			"Can transform to [Recnal (Sword)] <in [Friendly Land] tiles>"
 		],
 		"promotions": [
-			"Formation I",
-			"Shock I",
-			"[Sipahi] ability",
 			"Heavy Charge",
-			"[Hakkapeliitta] ability",
-			"[Gaucho] ability"
+			"[Sipahi] ability",
+			"Shock I",
+			"Formation I",
+			"[Gaucho] ability",
+			"[Hakkapeliitta] ability"
 		],
 		"attackSound": "horse",
 		"upgrade": "Anti-Tank Gun"
@@ -3990,27 +3990,27 @@
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
-			"[+100]% Strength <after discovering [Mobile Tactics]>",
-			"[+1] Sight",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
-			"[+60]% Strength <after discovering [Plastics]>",
-			"[+30]% Strength <after discovering [Replaceable Parts]>",
 			"[+10]% Strength <after discovering [Rifling]>",
+			"[+1] Sight",
 			"[-33]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
 			"Unit will heal every turn, even if it performs an action",
 			"[-33]% Strength <vs cities>",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+30]% Strength <after discovering [Replaceable Parts]>",
 			"[+1] Movement <after discovering [Mobile Tactics]>",
+			"Can move after attacking",
+			"[+100]% Strength <after discovering [Mobile Tactics]>",
+			"[+60]% Strength <after discovering [Plastics]>",
 			"Can transform to [Recnal] <in [Friendly Land] tiles>"
 		],
 		"promotions": [
-			"Formation I",
-			"Shock I",
-			"[Sipahi] ability",
 			"Heavy Charge",
-			"[Hakkapeliitta] ability",
-			"[Gaucho] ability"
+			"[Sipahi] ability",
+			"Shock I",
+			"Formation I",
+			"[Gaucho] ability",
+			"[Hakkapeliitta] ability"
 		],
 		"attackSound": "horse"
 	},
@@ -4026,11 +4026,11 @@
 		"requiredTech": "Astronomy",
 		"obsoleteTech": "Combustion",
 		"uniques": [
-			"[+1] Sight",
 			"Cannot enter ocean tiles",
-			"May withdraw before melee ([50]%)",
+			"[+1] Sight",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence",
-			"Can move after attacking"
+			"Can move after attacking",
+			"May withdraw before melee ([50]%)"
 		],
 		"attackSound": "cannon",
 		"upgrade": "Ironclad"
@@ -4046,22 +4046,22 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"promotions": [
-			"Home Sweet Home",
+			"[Hussar] ability",
+			"Homeland Guardian",
+			"[Cossack] ability",
 			"Shock I",
 			"Morale",
-			"[Cossack] ability",
 			"Desert Warrior",
-			"Homeland Guardian",
 			"[Tarqui Grenadiers] ability",
-			"[Hussar] ability"
+			"Home Sweet Home"
 		],
 		"uniques": [
 			"[+1] Sight",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"Can transform to [Llanero]",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"[-33]% Strength <vs cities>"
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Can transform to [Llanero]",
+			"Can move after attacking"
 		],
 		"attackSound": "horse",
 		"upgrade": "Landship"
@@ -4102,6 +4102,34 @@
 		]
 	},
 	{
+		"name": "Thgink (Archery)",
+		"unitType": "Archery",
+		"uniqueTo": "Upside-Down",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 21,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"uniques": [
+			"[+2] Sight",
+			"Founds a new city <on foreign continents>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[+50]% Strength <vs [Mounted] units>",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"Can transform to [Thgink] <in [Friendly Land] tiles>"
+		],
+		"attackSound": "horse",
+		"promotions": [
+			"[Conquistador] ability",
+			"Quick Study",
+			"Great Generals I"
+		],
+		"range": 2,
+		"upgrade": "Cavalry"
+	},
+	{
 		"name": "Thgink",
 		"unitType": "Mounted",
 		"replaces": "Knight",
@@ -4113,47 +4141,19 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"uniques": [
+			"[+2] Sight",
 			"Founds a new city <on foreign continents>",
+			"[-33]% Strength <vs cities> <when attacking>",
 			"[+50]% Strength <vs [Mounted] units>",
 			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"[+2] Sight",
 			"Can move after attacking",
 			"Can transform to [Thgink (Archery)] <in [Friendly Land] tiles>"
 		],
 		"attackSound": "horse",
 		"promotions": [
+			"[Conquistador] ability",
 			"Quick Study",
-			"Great Generals I",
-			"[Conquistador] ability"
-		],
-		"range": 2,
-		"upgrade": "Cavalry"
-	},
-	{
-		"name": "Thgink (Archery)",
-		"unitType": "Archery",
-		"uniqueTo": "Upside-Down",
-		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 21,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"uniques": [
-			"Founds a new city <on foreign continents>",
-			"[+50]% Strength <vs [Mounted] units>",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"[+2] Sight",
-			"Can move after attacking",
-			"Can transform to [Thgink] <in [Friendly Land] tiles>"
-		],
-		"attackSound": "horse",
-		"promotions": [
-			"Quick Study",
-			"Great Generals I",
-			"[Conquistador] ability"
+			"Great Generals I"
 		],
 		"range": 2,
 		"upgrade": "Cavalry"
@@ -4170,17 +4170,45 @@
 		"requiredTech": "Machinery",
 		"obsoleteTech": "Industrialization",
 		"promotions": [
+			"[Chu-Ko-Nu] ability",
 			"Extended Range",
 			"Quick Study",
-			"Cover I",
-			"[Chu-Ko-Nu] ability"
+			"Cover I"
 		],
 		"attackSound": "crossbow",
 		"range": 2,
 		"uniques": [
-			"Defense bonus when embarked",
 			"Can move after attacking",
+			"Defense bonus when embarked",
 			"No defensive terrain bonus"
+		],
+		"upgrade": "Gatling Gun"
+	},
+	{
+		"name": "Tehcubert (Archery, Gatling Gun)",
+		"unitType": "Archery",
+		"uniqueTo": "Upside-Down",
+		"movement": 3,
+		"strength": 17,
+		"rangedStrength": 26,
+		"cost": 150,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Dynamite",
+		"uniques": [
+			"[-33]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-50]% XP gained from combat",
+			"[2] additional attacks per turn",
+			"[-1] Sight",
+			"[+2] Movement <when adjacent to a [Military] unit>",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
+			"Can transform to [Tehcubert] <in [Friendly Land] tiles>"
+		],
+		"attackSound": "throw",
+		"range": 2,
+		"promotions": [
+			"Logistics"
 		],
 		"upgrade": "Gatling Gun"
 	},
@@ -4196,14 +4224,14 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Dynamite",
 		"uniques": [
-			"[+2] Movement <when adjacent to a [Military] unit>",
-			"No defensive terrain bonus",
-			"Must set up to ranged attack",
-			"[2] additional attacks per turn",
-			"[+100]% Strength <vs cities> <when attacking>",
-			"[-50]% XP gained from combat",
-			"[-1] Sight",
 			"[-33]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-50]% XP gained from combat",
+			"[2] additional attacks per turn",
+			"[-1] Sight",
+			"[+2] Movement <when adjacent to a [Military] unit>",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"Must set up to ranged attack",
 			"Can transform to [Tehcubert (Archery, Gatling Gun)] <in [Friendly Land] tiles>"
 		],
 		"attackSound": "throw",
@@ -4212,34 +4240,6 @@
 			"Logistics"
 		],
 		"upgrade": "Cannon"
-	},
-	{
-		"name": "Tehcubert (Archery, Gatling Gun)",
-		"unitType": "Archery",
-		"uniqueTo": "Upside-Down",
-		"movement": 3,
-		"strength": 17,
-		"rangedStrength": 26,
-		"cost": 150,
-		"requiredTech": "Physics",
-		"obsoleteTech": "Dynamite",
-		"uniques": [
-			"[+2] Movement <when adjacent to a [Military] unit>",
-			"No defensive terrain bonus",
-			"Must set up to ranged attack",
-			"[2] additional attacks per turn",
-			"[+100]% Strength <vs cities> <when attacking>",
-			"[-50]% XP gained from combat",
-			"[-1] Sight",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"Can transform to [Tehcubert] <in [Friendly Land] tiles>"
-		],
-		"attackSound": "throw",
-		"range": 2,
-		"promotions": [
-			"Logistics"
-		],
-		"upgrade": "Gatling Gun"
 	},
 	{
 		"name": "Namteksum",
@@ -4253,15 +4253,15 @@
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot",
 		"promotions": [
-			"[Janissary] ability",
-			"Drill I"
+			"Drill I",
+			"[Janissary] ability"
 		],
 		"uniques": [
+			"[+15]% to Flank Attack bonuses",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Can move immediately once bought",
 			"Ignores terrain cost",
-			"[+15]% Strength <within [1] tiles of a [City center]> <when fighting in [Friendly Land] tiles>",
-			"[+15]% to Flank Attack bonuses"
+			"[+15]% Strength <within [1] tiles of a [City center]> <when fighting in [Friendly Land] tiles>"
 		],
 		"hurryCostModifier": -25,
 		"upgrade": "Rifleman"
@@ -4276,37 +4276,15 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"promotions": [
-			"Coastal Raider I",
 			"Supply",
-			"Coastal Raider II"
+			"Coastal Raider II",
+			"Coastal Raider I"
 		],
 		"uniques": [
 			"May capture killed [Water] units"
 		],
 		"attackSound": "cannon",
 		"upgrade": "Destroyer"
-	},
-	{
-		"name": "Etagirf (WaterRanged)",
-		"unitType": "WaterRanged",
-		"uniqueTo": "Upside-Down",
-		"movement": 5,
-		"strength": 30,
-		"rangedStrength": 35,
-		"cost": 185,
-		"requiredResource": "Iron",
-		"uniques": [
-			"[+1] Sight",
-			"Can transform to [Etagirf] <in [Friendly Land] tiles>"
-		],
-		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
-		"hurryCostModifier": 20,
-		"attackSound": "cannon",
-		"promotions": [
-			"[Liberator Scuadron] ability"
-		],
-		"upgrade": "Battleship"
 	},
 	{
 		"name": "Etagirf",
@@ -4332,6 +4310,28 @@
 		"upgrade": "Battleship"
 	},
 	{
+		"name": "Etagirf (WaterRanged)",
+		"unitType": "WaterRanged",
+		"uniqueTo": "Upside-Down",
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 35,
+		"cost": 185,
+		"requiredResource": "Iron",
+		"uniques": [
+			"[+1] Sight",
+			"Can transform to [Etagirf] <in [Friendly Land] tiles>"
+		],
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon",
+		"promotions": [
+			"[Liberator Scuadron] ability"
+		],
+		"upgrade": "Battleship"
+	},
+	{
 		"name": "Namelfir",
 		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
@@ -4342,13 +4342,13 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"promotions": [
-			"Home Sweet Home",
-			"[Norwegian Ski Infantry] ability",
-			"March",
-			"Woodsman",
-			"Great Generals I",
 			"Drill I",
-			"[Patriot Army] ability"
+			"[Norwegian Ski Infantry] ability",
+			"Great Generals I",
+			"March",
+			"Home Sweet Home",
+			"[Patriot Army] ability",
+			"Woodsman"
 		],
 		"attackSound": "shot",
 		"uniques": [
@@ -4368,10 +4368,10 @@
 		"obsoleteTech": "Plastics",
 		"uniques": [
 			"Invisible to non-adjacent units",
+			"May enter foreign tiles without open borders",
 			"[+20]% Strength <when fighting in [Foreign Land] tiles>",
-			"May withdraw before melee ([30]%)",
 			"Ignores terrain cost",
-			"May enter foreign tiles without open borders"
+			"May withdraw before melee ([30]%)"
 		],
 		"attackSound": "shot",
 		"rangedStrength": 45,
@@ -4391,14 +4391,14 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"uniques": [
-			"[+35]% Strength <vs [Fighter] units>",
+			"[100]% chance to intercept air attacks",
 			"[+150]% Strength <vs [Helicopter] units>",
 			"[+150]% Strength <vs [Bomber] units>",
-			"[100]% chance to intercept air attacks"
+			"[+35]% Strength <vs [Fighter] units>"
 		],
 		"promotions": [
-			"[Zero] ability",
-			"Bombardment I"
+			"Bombardment I",
+			"[Zero] ability"
 		],
 		"attackSound": "machinegun",
 		"obsoleteTech": "Lasers",
@@ -4445,26 +4445,55 @@
 		"upgrade": "Modern Armor"
 	},
 	{
+		"name": "Lareneg Taerg (Knight)",
+		"unitType": "Civilian",
+		"uniqueTo": "Upside-Down",
+		"uniques": [
+			"[+10]% Strength bonus for [Military] units within [3] tiles",
+			"[+2] Sight",
+			"[+1] Sight",
+			"Uncapturable",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Unbuildable",
+			"All adjacent units heal [+15] HP when healing",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Great Person - [War]",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"[+25]% Strength bonus for [Military] units within [0] tiles",
+			"[+15] HP when healing",
+			"All adjacent units heal [+10] HP when healing",
+			"[+20]% Strength bonus for [Military] units within [1] tiles",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Can transform to [Lareneg Taerg] <in [Friendly Land] tiles>"
+		],
+		"movement": 5,
+		"strength": 10,
+		"promotions": [
+			"Kavkhan"
+		],
+		"upgrade": "Knight"
+	},
+	{
 		"name": "Lareneg Taerg",
 		"unitType": "Civilian",
 		"uniqueTo": "Upside-Down",
 		"replaces": "Great General",
 		"uniques": [
-			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
-			"[+25]% Strength bonus for [Military] units within [0] tiles",
+			"[+10]% Strength bonus for [Military] units within [3] tiles",
+			"[+2] Sight",
 			"[+1] Sight",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Uncapturable",
-			"[+20]% Strength bonus for [Military] units within [1] tiles",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"Unbuildable",
+			"All adjacent units heal [+15] HP when healing",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit> <if it hasn't used other actions yet>",
 			"Great Person - [War]",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Unbuildable",
-			"All adjacent units heal [+10] HP when healing",
-			"Can instantly construct a [Citadel] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"[+25]% Strength bonus for [Military] units within [0] tiles",
 			"[+15] HP when healing",
-			"[+2] Sight",
-			"[+10]% Strength bonus for [Military] units within [3] tiles",
-			"All adjacent units heal [+15] HP when healing",
+			"All adjacent units heal [+10] HP when healing",
+			"[+20]% Strength bonus for [Military] units within [1] tiles",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can transform to [Lareneg Taerg (Knight)] <in [Friendly Land] tiles>"
 		],
 		"movement": 5,
@@ -4474,33 +4503,29 @@
 		]
 	},
 	{
-		"name": "Lareneg Taerg (Knight)",
-		"unitType": "Civilian",
+		"name": "Pihsdnal (Mounted)",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 62,
+		"cost": 350,
+		"requiredTech": "Combustion",
+		"obsoleteTech": "Combined Arms",
 		"uniqueTo": "Upside-Down",
 		"uniques": [
-			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
-			"[+25]% Strength bonus for [Military] units within [0] tiles",
-			"[+1] Sight",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"Uncapturable",
-			"[+20]% Strength bonus for [Military] units within [1] tiles",
-			"Great Person - [War]",
-			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Unbuildable",
-			"All adjacent units heal [+10] HP when healing",
-			"Can instantly construct a [Citadel] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-			"[+15] HP when healing",
-			"[+2] Sight",
-			"[+10]% Strength bonus for [Military] units within [3] tiles",
-			"All adjacent units heal [+15] HP when healing",
-			"Can transform to [Lareneg Taerg] <in [Friendly Land] tiles>"
+			"Can move after attacking",
+			"[-33]% Strength <vs cities>",
+			"[-20]% Strength <vs [Armored] units>",
+			"[+20]% Strength <vs [Gunpowder] units>",
+			"[+20]% Strength <vs [Ranged Gunpowder] units>",
+			"Can transform to [Pihsdnal] <in [Friendly Land] tiles>"
 		],
-		"movement": 5,
-		"strength": 10,
-		"promotions": [
-			"Kavkhan"
+		"civilopediaText": [
+			{
+				"text": "Courageous horsemen who fought to the bitter end, on harsh biomes, climate and conditions, but nevertheless their lion courage made all their acts heroic."
+			}
 		],
-		"upgrade": "Knight"
+		"attackSound": "tankshot",
+		"upgrade": "Tank"
 	},
 	{
 		"name": "Pihsdnal",
@@ -4519,31 +4544,6 @@
 			"[+20]% Strength <vs [Gunpowder] units>",
 			"[+20]% Strength <vs [Ranged Gunpowder] units>",
 			"Can transform to [Pihsdnal (Mounted)] <in [Friendly Land] tiles>"
-		],
-		"civilopediaText": [
-			{
-				"text": "Courageous horsemen who fought to the bitter end, on harsh biomes, climate and conditions, but nevertheless their lion courage made all their acts heroic."
-			}
-		],
-		"attackSound": "tankshot",
-		"upgrade": "Tank"
-	},
-	{
-		"name": "Pihsdnal (Mounted)",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 62,
-		"cost": 350,
-		"requiredTech": "Combustion",
-		"obsoleteTech": "Combined Arms",
-		"uniqueTo": "Upside-Down",
-		"uniques": [
-			"Can move after attacking",
-			"[-33]% Strength <vs cities>",
-			"[-20]% Strength <vs [Armored] units>",
-			"[+20]% Strength <vs [Gunpowder] units>",
-			"[+20]% Strength <vs [Ranged Gunpowder] units>",
-			"Can transform to [Pihsdnal] <in [Friendly Land] tiles>"
 		],
 		"civilopediaText": [
 			{

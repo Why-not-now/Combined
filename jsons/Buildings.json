@@ -2475,11 +2475,11 @@
 		},
 		"uniques": [
 			"Hidden when religion is disabled",
-			"Doubles Gold given to enemy if city is captured",
-			"[+1 Faith] from [Jungle] tiles [in this city]",
-			"Destroyed when the city is captured",
 			"[+1 Faith] from [River] tiles [in this city]",
-			"[+1 Faith] from [Hill] tiles [in this city]"
+			"Doubles Gold given to enemy if city is captured",
+			"[+1 Faith] from [Hill] tiles [in this city]",
+			"[+1 Faith] from [Jungle] tiles [in this city]",
+			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Shrine",
 		"requiredTech": "Construction",
@@ -2497,9 +2497,9 @@
 		"culture": 2,
 		"hurryCostModifier": 50,
 		"uniques": [
-			"Can only be built [in annexed cities]",
+			"Remove extra unhappiness from annexed cities",
 			"New [Military] units start with [10] Experience [in this city]",
-			"Remove extra unhappiness from annexed cities"
+			"Can only be built [in annexed cities]"
 		],
 		"requiredTech": "Construction",
 		"happiness": 1,
@@ -2515,8 +2515,8 @@
 		"cost": 40,
 		"requiredTech": "Pottery",
 		"uniques": [
-			"[+2 Faith] from [Mountain] tiles [in this city]",
-			"Hidden when religion is disabled"
+			"Hidden when religion is disabled",
+			"[+2 Faith] from [Mountain] tiles [in this city]"
 		],
 		"science": 2
 	},
@@ -2533,9 +2533,9 @@
 			"gold": 25
 		},
 		"uniques": [
+			"Free [Worker] appears",
 			"[+2 Gold] from [Oil] tiles [in this city]",
 			"[+2 Gold] from [Oasis] tiles [in this city]",
-			"Free [Worker] appears",
 			"Provides 1 extra copy of each improved luxury resource near this City"
 		],
 		"requiredTech": "Currency"
@@ -2549,10 +2549,10 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Iron Working",
 		"uniques": [
-			"[+15]% Production when constructing [Spaceship part] units [in this city]",
-			"Provides [2] [Iron]",
+			"[+1 Production] from [Iron] tiles [in this city]",
 			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]"
+			"Provides [2] [Iron]",
+			"[+15]% Production when constructing [Spaceship part] units [in this city]"
 		]
 	},
 	{
@@ -2579,14 +2579,14 @@
 		],
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
-			"[+15]% Production when constructing [Mounted] units [in this city]",
-			"New [Mounted] units start with [15] Experience [in this city]",
-			"[+1 Production] from [Cattle] tiles [in this city]",
-			"[+1 Production] from [Sheep] tiles [in this city]",
-			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
 			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
-			"[+1 Production] from [Horses] tiles [in this city]"
+			"[+1 Production] from [Sheep] tiles [in this city]",
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
+			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
+			"New [Mounted] units start with [15] Experience [in this city]"
 		],
 		"requiredTech": "Horseback Riding"
 	},
@@ -2597,10 +2597,10 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"[-25]% Gold cost of acquiring tiles [in this city]",
-			"[-25]% Culture cost of natural border growth [in this city]",
 			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion",
 			"New [Military] units start with [15] Experience [in this city]",
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
@@ -2647,11 +2647,11 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"uniques": [
+			"[+1 Culture] from [Hill] tiles [in this city] <with [1] to [2] neighboring [City center] tiles>",
 			"Cost increases by [20] per owned city",
 			"[+2 Culture] <after discovering [Dynamite]>",
 			"Destroyed when the city is captured",
-			"[+1 Science] from [Hill] tiles [in this city] <with [1] to [2] neighboring [City center] tiles> <with [1] to [6] neighboring [Mountain] tiles> <after discovering [Flight]>",
-			"[+1 Culture] from [Hill] tiles [in this city] <with [1] to [2] neighboring [City center] tiles>"
+			"[+1 Science] from [Hill] tiles [in this city] <with [1] to [2] neighboring [City center] tiles> <with [1] to [6] neighboring [Mountain] tiles> <after discovering [Flight]>"
 		]
 	},
 	{
@@ -2661,9 +2661,9 @@
 		"food": 2,
 		"production": 1,
 		"uniques": [
+			"[+2 Food] from [Lakes] tiles [in this city]",
 			"Must be next to [Fresh water]",
-			"Must be on [River]",
-			"[+2 Food] from [Lakes] tiles [in this city]"
+			"Must be on [River]"
 		],
 		"hurryCostModifier": 25,
 		"maintenance": 2,
@@ -2731,8 +2731,8 @@
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
 		"uniques": [
-			"Destroyed when the city is captured",
-			"[+1 Gold] [in this city] <after discovering [Flight]>"
+			"[+1 Gold] [in this city] <after discovering [Flight]>",
+			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Civil Service",
 		"faith": 2,
@@ -2754,8 +2754,8 @@
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
 		"uniques": [
-			"Destroyed when the city is captured",
-			"[+2 Culture] from [Lakes] tiles [in this city]"
+			"[+2 Culture] from [Lakes] tiles [in this city]",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -2772,18 +2772,18 @@
 		},
 		"maintenance": 2,
 		"uniques": [
+			"[+2 Production] from [Salt] tiles [in this city]",
+			"The Hacienda Cannot be build on Desert, Tundra nor Snow, only at Grassland/Plains Hills",
+			"[+1 Culture] from [River] tiles [in this city]",
+			"Must be next to [Desert]",
+			"Must not be on [Hill]",
+			"[+25]% Great Person generation [in this city]",
 			"[+10]% Production when constructing [All] buildings [in this city]",
 			"Limited to [4] per Civilization",
-			"[+1 Culture] from [River] tiles [in this city]",
-			"Creates a [Coffee Hacienda] improvement on a specific tile",
-			"[+25]% Great Person generation [in this city]",
-			"Destroyed when the city is captured",
-			"The Hacienda Cannot be build on Desert, Tundra nor Snow, only at Grassland/Plains Hills",
 			"[+1 Production, +1 Culture, +1 Gold] from [Coffee Hacienda] tiles [in this city]",
-			"[+2 Production] from [Salt] tiles [in this city]",
-			"Must not be on [Hill]",
+			"Destroyed when the city is captured",
 			"Unsellable",
-			"Must be next to [Desert]"
+			"Creates a [Coffee Hacienda] improvement on a specific tile"
 		],
 		"requiredTech": "Economics",
 		"culture": 1
@@ -2862,10 +2862,10 @@
 		"uniqueTo": "Upside-Down",
 		"uniques": [
 			"[+1 Food] from [Plantation] tiles [in this city]",
-			"Provides [1] [Vetiver Oil] <after discovering [Astronomy]>",
 			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]"
+			"Provides [1] [Vetiver Oil] <after discovering [Astronomy]>"
 		],
 		"civilopediaText": [
 			{
